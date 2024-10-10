@@ -1,0 +1,66 @@
+// Required
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+// Variables here
+$primary: #5265E1;
+$secondary: #FA5959;
+
+$padding-button: 25px;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary
+);
+
+//Create map
+$custom-colors: (
+  "grey": #eeeeee
+);
+
+//Merge maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+//Node Import
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+//Custom Styles
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  padding-left: $padding-button;
+  padding-right: $padding-button;
+  font-size: small;
+}
+
+.btn-secondary {
+  color: white;
+}
+
+#navItems {
+  margin: 15px;
+}
+
+.nav-link {
+  font-size: small;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+#pHero {
+  color: #a8a8a8;
+}
+
+@media (max-width: 991px) {
+  .container {
+    text-align: center;
+  }
+
+}
