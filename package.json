@@ -1,6 +1,11 @@
 {
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-dev": "sass --watch main.scss:compile.css",
+    "sass-prod": "sass main.scss:compile.css"
+  },
   "dependencies": {
     "bootstrap": "^5.3.3",
     "sass": "^1.79.4"
-  }
+  }  
 }
