@@ -62,7 +62,7 @@ h1 {
   color: map-get($custom-colors, "text-color");
 }
 
-p {
+p, .accordion-body {
   color: map-get($custom-colors, "text-color");
 }
 
@@ -96,6 +96,17 @@ h2 {
 h5 {
   font-weight: 600;
 }
+
+.accordion-button::after {
+  background-image: url('./img/icon-arrow.svg');  
+}
+
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
 
 
 @media (max-width: 991px) {

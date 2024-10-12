@@ -11502,7 +11502,7 @@ h1, .h1 {
   color: #a8a8a8;
 }
 
-p {
+p, .accordion-body {
   color: #a8a8a8;
 }
 
@@ -11535,6 +11535,16 @@ h2, .h2 {
 
 h5, .h5 {
   font-weight: 600;
+}
+
+.accordion-button::after {
+  background-image: url("./img/icon-arrow.svg");
+}
+
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
 }
 
 @media (max-width: 991px) {
