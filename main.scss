@@ -62,6 +62,10 @@ h1 {
   color: map-get($custom-colors, "text-color");
 }
 
+p {
+  color: map-get($custom-colors, "text-color");
+}
+
 .nav-pills .nav-link {
   background-color: transparent;
   color: #363636;
@@ -80,6 +84,19 @@ h1 {
   border-radius: 0;
 }
 
+.card-img-top {
+  width: 6rem;
+  height: 6rem;  
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h5 {
+  font-weight: 600;
+}
+
 
 @media (max-width: 991px) {
   .container {
@@ -88,7 +105,6 @@ h1 {
 
   #tabImg1, #tabImg2, #tabImg3 { 
     margin-bottom: 80px;
-  }
-  
+  } 
 
 }

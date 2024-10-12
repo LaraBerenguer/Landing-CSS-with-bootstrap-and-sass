@@ -11502,6 +11502,10 @@ h1, .h1 {
   color: #a8a8a8;
 }
 
+p {
+  color: #a8a8a8;
+}
+
 .nav-pills .nav-link {
   background-color: transparent;
   color: #363636;
@@ -11518,6 +11522,19 @@ h1, .h1 {
 .nav-pills .nav-link:hover {
   color: #FA5959;
   border-radius: 0;
+}
+
+.card-img-top {
+  width: 6rem;
+  height: 6rem;
+}
+
+h2, .h2 {
+  font-weight: 500;
+}
+
+h5, .h5 {
+  font-weight: 600;
 }
 
 @media (max-width: 991px) {
