@@ -7,7 +7,6 @@ Una landign page sencilla creada a partir de un wireframe. Se trata de una pági
 - HTML5
 - SCSS
 - Bootstrap 5
-- npm
 
 ## 📋 Requisitos
 
