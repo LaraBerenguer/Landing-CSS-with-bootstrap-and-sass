@@ -107,7 +107,14 @@ h5 {
   background-color: transparent;
 }
 
+#pFooter {
+  color: white;
+  font-size: small;
+}
 
+#foot-nav1, #foot-nav2, #foot-nav3 {
+  color: white;
+}
 
 @media (max-width: 991px) {
   .container {
@@ -116,6 +123,11 @@ h5 {
 
   #tabImg1, #tabImg2, #tabImg3 { 
     margin-bottom: 80px;
-  } 
+  }
 
+  .input-mail {
+    display: flex;
+    justify-content: center;
+  }
 }
+

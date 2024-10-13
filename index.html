@@ -261,7 +261,7 @@
     <div class="container my-5 py-5">
         <div class="row">
             <div class="col"></div>
-            <div class="col-9">
+            <div class="col-10">
                 <!--Row FAQS-->
                 <div class="row my-5">
                     <div class="col col-lg-3 col-md-2 col-sm-2"></div>
@@ -278,8 +278,8 @@
                 </div>
                 <!--Row Accordion-->
                 <div class="row my-5">
-                    <div class="col col-lg-2 col-md-2 col-sm-2"></div>
-                    <div class="col col-lg-8 col-md-8 col-sm-8">
+                    <div class="col col-lg-2 col-md-1 col-sm-1"></div>
+                    <div class="col col-lg-8 col-md-10 col-sm-10">
                         <!--Accordion-->
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <!--Accordion 1-->
@@ -348,9 +348,9 @@
                         <div class="my-5 text-center">
                             <button class="btn btn-primary shadow-sm">More Info</button>
                         </div>
-                        
+
                     </div>
-                    <div class="col col-lg-2 col-md-2 col-sm-2"></div>
+                    <div class="col col-lg-2 col-md-1 col-sm-1"></div>
                 </div>
 
             </div>
@@ -358,7 +358,71 @@
         </div>
     </div>
 
+    <!--Blue footer-->
+    <div class="mt-5 py-5 text-white bg-primary">
+        <!--Row text footer-->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-5">
+                <div class="col text-center">
+                    <p class="pt-3" id="pFooter">
+                        35.000+ ALREADY JOINED
+                    </p>
+                    <h2>
+                        Stay up-to-date with what we're doing
+                    </h2>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+        <!--Row Input and button-->
+        <form class="row g-3 my-3 needs-validation justify-content-center align-items-center" id="input-mail" novalidate >            
+            <div class="col col-lg-2 col-md-4 col-sm-7">
+                <input type="email" class="form-control" id="mailId" placeholder="Enter your email address" required>
+                <div class="invalid-tooltip">
+                    Whoops, make sure it's an email
+                </div>
+
+            </div>
+            <div class="col col-lg-auto col-md-auto col-sm-7">
+                <button type="submit" class="btn btn-secondary shadow-sm">Contact Us</button>
+            </div>           
+        </form>
+    </div>
+
+    <!--Main Footer-->
+    <nav class="navbar navbar-dark bg-black text-white py-4">
+        <div class="container">            
+            <div class="d-flex flex-lg-row flex-md-column flex-sm-column justify-content-start w-100">
+                <!-- Logo -->
+                <a class="navbar-brand mt-lg-2 mb-md-3 mb-sm-3" href="#"><img src="./img/logo-bookmark.svg" alt="Bookmark"></a>
+                <!-- Nav Items -->
+                <ul class="navbar-nav flex-lg-row flex-md-column flex-sm-column">
+                    <li class="nav-item mx-lg-3 my-md-2 my-sm-2">
+                        <a class="nav-link" id="foot-nav1" href="#">FEATURES</a>
+                    </li>
+                    <li class="nav-item mx-lg-3 my-md-2 my-sm-2">
+                        <a class="nav-link" id="foot-nav2" href="#">PRICING</a>
+                    </li>
+                    <li class="nav-item mx-lg-3 my-md-2 my-sm-2">
+                        <a class="nav-link" id="foot-nav3" href="#">CONTACT</a>
+                    </li>
+                </ul>
+                <!-- Social Icons -->
+                <ul class="navbar-nav flex-lg-row flex-md-column flex-sm-column ms-lg-auto">
+                    <li class="nav-item mx-lg-3 my-md-2 my-sm-2">
+                        <a class="nav-link" href="#"><img src="./img/icon-facebook.svg" alt="Facebook"></a>
+                    </li>
+                    <li class="nav-item mx-lg-3 my-md-2 my-sm-2">
+                        <a class="nav-link" href="#"><img src="./img/icon-twitter.svg" alt="Twitter"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
 
 </body>
 
