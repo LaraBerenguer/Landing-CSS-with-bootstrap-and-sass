@@ -41,8 +41,32 @@ body {
   font-size: small;
 }
 
+.btn-primary:hover {
+  background-color: transparent;
+  border: 1px solid $primary;
+  color: $primary;
+}
+
 .btn-secondary {
   color: white;
+}
+
+.btn-secondary:hover {
+  background-color: transparent;
+  border: 1px solid $secondary;
+  color: $secondary;
+}
+
+#contact-btn.btn-secondary:hover {
+  background-color: white;
+  border: 1px solid $secondary;
+  color: $secondary;
+}
+
+.btn-grey:hover {
+  background-color: transparent;
+  border: 1px solid map-get($custom-colors , "grey");
+  color: grey;
 }
 
 #navItems {
@@ -52,6 +76,10 @@ body {
 #navbar1, #navbar2, #navbar3 { 
   font-size: small;
   font-weight: 500;
+}
+
+#navbar1:hover, #navbar2:hover, #navbar3:hover { 
+  color: $secondary;
 }
 
 h1 {
@@ -98,13 +126,17 @@ h5 {
 }
 
 .accordion-button::after {
-  background-image: url('./img/icon-arrow.svg');  
+  background-image: url('./img/icon-arrow.svg'); 
 }
 
 .accordion-button:focus {
   outline: none;
   box-shadow: none;
   background-color: transparent;
+}
+
+.accordion-button:hover {
+  color: $secondary;
 }
 
 #pFooter {
@@ -114,6 +146,14 @@ h5 {
 
 #foot-nav1, #foot-nav2, #foot-nav3 {
   color: white;
+}
+
+#foot-nav1:hover, #foot-nav2:hover, #foot-nav3:hover { 
+  color: $secondary;
+}
+
+#socialIcon:hover {
+  filter: invert(31%) sepia(93%) saturate(7500%) hue-rotate(350deg) brightness(105%) contrast(100%);
 }
 
 @media (max-width: 991px) {

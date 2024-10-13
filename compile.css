@@ -11481,8 +11481,32 @@ body {
   font-size: small;
 }
 
+.btn-primary:hover {
+  background-color: transparent;
+  border: 1px solid #5265E1;
+  color: #5265E1;
+}
+
 .btn-secondary {
   color: white;
+}
+
+.btn-secondary:hover {
+  background-color: transparent;
+  border: 1px solid #FA5959;
+  color: #FA5959;
+}
+
+#contact-btn.btn-secondary:hover {
+  background-color: white;
+  border: 1px solid #FA5959;
+  color: #FA5959;
+}
+
+.btn-grey:hover {
+  background-color: transparent;
+  border: 1px solid #eeeeee;
+  color: grey;
 }
 
 #navItems {
@@ -11492,6 +11516,10 @@ body {
 #navbar1, #navbar2, #navbar3 {
   font-size: small;
   font-weight: 500;
+}
+
+#navbar1:hover, #navbar2:hover, #navbar3:hover {
+  color: #FA5959;
 }
 
 h1, .h1 {
@@ -11547,6 +11575,10 @@ h5, .h5 {
   background-color: transparent;
 }
 
+.accordion-button:hover {
+  color: #FA5959;
+}
+
 #pFooter {
   color: white;
   font-size: small;
@@ -11554,6 +11586,14 @@ h5, .h5 {
 
 #foot-nav1, #foot-nav2, #foot-nav3 {
   color: white;
+}
+
+#foot-nav1:hover, #foot-nav2:hover, #foot-nav3:hover {
+  color: #FA5959;
+}
+
+#socialIcon:hover {
+  filter: invert(31%) sepia(93%) saturate(7500%) hue-rotate(350deg) brightness(105%) contrast(100%);
 }
 
 @media (max-width: 991px) {
